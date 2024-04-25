@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fusion</title>
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+    </head>
+    <body onmousedown="return false">
+
+        <div id="startseite" class="ebene">
+            <button id="start">Starte spiel</button>
+            <!--Muss noch gemacht werden-->
+            <input type="text" name="nickname" id="nickname" autofocus maxlength="14" value="Spieler1" spellcheck="false">
+            <img src="pics/question-mark.png" id="fragezeichen" alt="fragezeichen">
+            <img src="pics/tutorial.png" alt="tutorial" id="tutorial">
+            <img src="pics/hintergrund/Hintergrund.png" alt="hintergrund" id="hintergrund">
+        </div>
+
+        <div id="levelauswahl" class="ebene">
+            <img src="pics/hintergrund/Hintergrund.png" alt="hintergrund" id="levelAuswahlHintergrund">
+            <button id="levelauswahlButton"><img src="pics/zurueck.png" alt="Zurueck"></button>
+            <div id="vorschau">
+            </div>
+            <div id ="levelauswahlFlaeche">
+                <div id="level1" class="levelOffen"><h2>Level 1</h2></div>
+                <div id="level2" class="level"><h2>Level 2</h2></div>
+                <div id="level3" class="level"><h2>Level 3</h2></div>
+                <div id="level4" class="level"><h2>Level 4</h2></div>
+                <div id="level5" class="level"><h2>Level 5</h2></div>
+                <div id="level6" class="level"><h2>Level 6</h2></div>
+                <div id="level7" class="level"><h2>Level 7</h2></div>
+                <div id="level8" class="level"><h2>Level 8</h2></div>
+            </div>
+        </div>
+
+
+        <div id="hauptSeite">
+            <div id="buttonDivHauptSeite">
+                <button id="zurueckWahl"><img src="pics/zurueck.png" alt="Zurueck"></button>
+            </div>
+            
+            <div id="levelflaeche" class="ebene">
+                
+                <div id="gitter">
+                </div>
+
+                <div id="tiere">
+                </div>
+
+                <div id="hintergrundbild">
+                </div>
+
+                <div id="netz">
+                </div>
+
+                <div id="schatten">
+                </div>
+
+                <div id="rechnungsFeld" class="rechnung">
+
+                    <div id="rechnungsKommentar">
+                    </div>
+
+                    <div id="seiteX">
+                    </div>
+
+                    <div id="seiteY">
+                    </div>
+
+                    <div id="seiten">        
+                    </div>
+
+                    <div id="gefangenBild">
+                    </div>
+                    
+
+                    <div id="rechnung" class="rechnung">
+
+                        <p id="rechnungsText"></p>
+
+                        <div id="formInput">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="schatzkarteDiv">
+                </div>
+            </div>
+        </div>
+        <div id="endScreen">
+            <div id="endScreenText"><p>Vielen Dank</p><p id="platzName"></p><p>dass du unser Spiel</p><p>durchgespielt hast.</p></div>
+            <img src="pics/hintergrund/EndScreen.png" alt="SchatzBild" id="endScreenBild">
+            <button id="endScreenZureck">Zurück zu Levelauswahl</button>
+        </div>
+
+
+        <script src="js/varSpeicher.js"></script>
+        <script src="js/menue.js"></script>
+        <script src="js/spiel.js"></script>
+  
+    </body>
+</html>

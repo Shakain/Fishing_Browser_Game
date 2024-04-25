@@ -1,0 +1,209 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+    
+
+    height: 100%;
+}
+
+img
+{
+    position: absolute;
+}
+
+button, #bestaetigungsFeld, #levelflaeche,.levelOffen:hover
+{
+    cursor: pointer;
+}
+
+
+
+/*Die Hauptseiten*/
+#levelauswahl, #hauptSeite, #endScreen
+{
+    display: none;
+}
+
+.ebene
+{
+    position: absolute;
+}
+
+#startseite, #endScreen {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+#levelauswahl
+{
+    width: 100%;
+}
+
+
+
+
+/*Elemente von der StartSeite*/ 
+#start, #nickname
+{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: solid #000000 4px;
+    border-radius: 5px;
+}
+
+#start
+{
+    background-color: red;
+}
+
+#tutorial
+{
+    position: absolute;
+    display: none;
+}
+
+
+#fragezeichen:hover + #tutorial
+{
+    position: absolute;
+    display: initial;
+}
+
+
+
+#hintergrund, #levelAuswahlHintergrund
+{
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}  
+
+
+
+
+/*Elemente von levelauswahl*/
+#levelauswahlButton
+{
+    background-color: #FFFFFF;
+    border: 0px;
+}
+
+#levelauswahlFlaeche
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 35%;
+    width: 830px;
+    position: absolute;
+}
+
+.level, .levelOffen
+{
+    border: solid 4px #000000;
+    border-radius: 10px;
+    
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #BBBBBB;
+}
+
+.levelOffen
+{
+    background-color: red;
+}
+
+#vorschau
+{
+    display: none;
+    position: absolute;
+
+    background-color: beige;
+    left: 80%;
+}
+
+
+
+/*Elemente von der hauptSeite*/
+#zurueckWahl
+{
+    background-color: #FFFFFF;
+    border: 0px;
+
+    position: absolute;
+    top: 40px;
+    z-index: 20;
+}
+/*Elemente die in levelFläche*/
+#tier
+{
+    position: absolute;
+    z-Index: -1;
+    background-color: #00ffff;
+    border: solid 1px #00000044;
+    min-height: 100px;
+    min-width: 50px;
+    display: flex;
+}
+
+#schatzkarteDiv
+{
+    position: absolute;
+}
+
+/*rechnung bereich von hauptSeite*/
+.rechnung
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+#rechnung
+{
+    background-color: #FFFFFF;
+    border: solid 4px #000000;
+    display: none;
+}
+
+#rechnungsKommentar
+{
+    position: absolute;
+    background-color: #BBBBFF;
+    transform: rotate(30deg);
+}
+
+
+
+
+/*Elemente die im EndScreen vorkommen*/
+#endScreenBild {
+    z-index: -1;
+}
+
+#endScreenZureck {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+}
+
+#endScreenText
+{
+    position: absolute;
+    text-align: center;
+}
+
