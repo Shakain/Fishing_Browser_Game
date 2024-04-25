@@ -1,8 +1,7 @@
-Dieses Programm ist entstanden zusammen mit einen Kolegen durch die Aufgabe ein Browser Lernspiel für Schueler Anfang dritter Klasse zu entwikeln.
+Dieses Programm ist zusammen mit einem Kollegen entstanden, um ein Browser-Lernspiel für Schüler der dritten Klasse zu entwickeln.
 
-Zum starten des Projekts einfach die index.html aufrufen.
+Zum Starten des Projekts einfach die index.html aufrufen.
 
-Das Konzept ist es Fische zu fangen indem man mit der Maus ein Netzt spannt. Wenn man einen Gefangen hat kommt einen Rechen Aufgabe ähnagig der größes des Netzes.
+Das Konzept besteht darin, Fische zu fangen, indem man mit der Maus ein Netz spannt. Wenn man einen gefangen hat, erscheint eine Rechenaufgabe, abhängig von der Größe des Netzes.
 
-Die Spiel Logik ist im spiel.js, Navigation und einstellung im menue.js und in varSpeicher befinden sich die nötigen speicherdaten wie strucktur des Levelst
-dargestellt durch einen zweidimensionalen Array und weitere werte wie die Tiere.
+Die Spiellogik befindet sich in spiel.js, die Navigation und Einstellungen im menu.js, und in varSpeicher befinden sich die notwendigen Speicherdaten, wie die Struktur der Levels dargestellt durch einen zweidimensionalen Array und weitere Werte wie die Tiere.
